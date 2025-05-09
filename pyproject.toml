@@ -6,9 +6,13 @@ authors = [
     {name = "Morris"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 dependencies = [
-    "metapub (>=0.5.12,<0.6.0)"
+    "metapub (>=0.5.12,<0.6.0)",
+    "networkx (>=3.4.2,<4.0.0)",
+    "spacy (==3.7.2)",
+    "scispacy (>=0.5.5)",
+    "numpy (==1.24.4)",
 ]
 
 
