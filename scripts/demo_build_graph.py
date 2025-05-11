@@ -62,7 +62,7 @@ def print_graph(G):
 
 if __name__ == "__main__":
     # ==== 測試第一篇文章：PMID 23210975 ====
-    paper = fetch_pubmed_article("23210975")
+    paper = fetch_pubmed_article("27834361")
     print("PMID:", paper["pmid"])
     print("Title:", paper["title"])
     print("\nAbstract:\n", paper["abstract"])
